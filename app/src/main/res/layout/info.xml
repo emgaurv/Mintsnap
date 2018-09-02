@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context="com.mintsnap.info">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:text="A Platform Which Help You Share And \n Read PDF Files"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <EditText
+            android:id="@+id/i_name"
+            android:layout_width="match_parent"
+
+            android:inputType="textPersonName"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <EditText
+            android:id="@+id/i_country"
+            android:layout_width="match_parent"
+
+            android:inputType="textPersonName"
+            android:layout_height="wrap_content"
+            android:hint="Country"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+
+        />
+
+</LinearLayout>
